@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <title>Mi pagina</title>
+</head>
+<body>
+    <main>
+         <header>
+            <nav>
+                <img class="logo" src="./imagenes/GB_logo.png" alt="Logo-gb" width="120px">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre-mi.html">Sobre mi</a></li>
+                </ul>
+            </nav>
+         </header>
+         <section>
+            <h3>¿Necesitas contactarte conmigo?</h3>
+            <p>No hay problema! aqui te dejo un formulario de contacto</p>
+         </section>
+         <section>
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo electronico</label>
+                <input type="email" id="email" name="email" required>
+                <label for="asunto">Asunto</label>
+                <input type="text" id="asunto" name="asunto" required>
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+                <button type="submit">Enviar</button>
+
+            </form>
+         </section>
